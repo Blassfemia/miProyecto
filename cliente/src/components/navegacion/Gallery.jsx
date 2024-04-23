@@ -5,29 +5,22 @@ import { RxDotFilled } from 'react-icons/rx'
 const Gallery = () => {
     const slides = [
         {
-            url: 'https://www.elciudadano.com/wp-content/uploads/2015/12/Mona-Lisa.jpg',
-            title: 'Mona Lisa'
+            url: '/img/img0.jpeg',
+            title: 'Bandera'
         },
         {
-            url: 'https://cdn.cnn.com/cnnnext/dam/assets/210202174859-cnn-red-david-miguel-angel.jpg',
-            title: 'David de Miguel Angel'
+            url: '/img/img1.jpeg',
+            title: 'Primer puesto relevos'
         },
         {
-            url: 'https://media.admagazine.com/photos/6194953f238e1b959d31a78e/master/w_1600%2Cc_limit/76244.jpg',
-            title: 'Salvador Dalí'
+            url: '/img/img2.jpeg',
+            title: 'Medalleria'
         },
         {
-            url: 'https://static5.museoreinasofia.es/sites/default/files/obras/DE00050.jpg',
-            title: 'Guernica'
+            url: '/img/img3.jpeg',
+            title: 'Reunion'
         },
-        {
-            url: 'https://wp.thecollector.com/wp-content/uploads/2021/08/Sandro-Botticelli-portrait-seducers-adulterers.jpg',
-            title: 'Sandro Botticelli'
-        },
-        {
-            url: 'https://cdn.pixabay.com/photo/2015/12/15/05/43/starry-night-1093721_960_720.jpg',
-            title: 'Noche estrellada'
-        },
+       
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0)
