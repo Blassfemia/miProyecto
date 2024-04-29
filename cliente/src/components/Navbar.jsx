@@ -18,7 +18,7 @@ function Navbar() {
       <ul className="flex gap-x-2">
         {isAuthenticated ? (
           <>
-            <li className="text-purple-500 hover:text-fuchsia-600">Hola {user.username} </li>
+            <li className="text-purple-500 hover:text-fuchsia-600 transition-transform hover:scale-110">Hola {user.username} </li>
             <li className="active:translate-y-1">
               <Link
                 to="/add-tasks"

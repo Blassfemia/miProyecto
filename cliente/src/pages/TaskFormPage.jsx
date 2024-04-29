@@ -47,7 +47,7 @@ function TaskFormPage() {
 
   return (
     <div className="flex h-[calc(100vh-100px)] items-center justify-center ">
-      <div className="bg-zinc-800 max-w-md w-full p-10 rounded-md my-2 shadow-md shadow-indigo-500/50">
+      <div className="bg-zinc-800 max-w-md w-full p-5 rounded-md my-2 shadow-md shadow-indigo-500/50">
         <form onSubmit={onSubmit}>
           <label htmlFor="title">Titulo</label>
           <input
