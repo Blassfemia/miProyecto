@@ -19,13 +19,23 @@ function TasksPage() {
 
   const maximo = tasks.length / porPagina;
 
-  let filteredTasks = tasks.filter(tasks =>
-    tasks.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-
-  if (sortByDate) {
-    filteredTasks.sort((a, b) => new Date(b.date) - new Date(a.date));
+  let filterTasks = (tasks, searchTerm) => {
+    return tasks.filter(task =>
+      task.title && task.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
   }
+  
+  let sortTasksByDate = (tasks, sortByDate) => {
+    if (sortByDate) {
+      return tasks.sort((a, b) => 
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
+    }
+    return tasks;
+  }
+  
+  let filteredTasks = filterTasks(tasks, searchTerm);
+  filteredTasks = sortTasksByDate(filteredTasks, sortByDate);
 
   return (
     <div className="container shadow-md shadow-indigo-500 ">
