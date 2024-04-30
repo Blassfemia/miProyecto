@@ -2,7 +2,7 @@ import React, { useState } from "react";
 //import { useAuth } from '../context/authContext'
 import { useTasks } from "../context/tasksContext";
 import { Link } from "react-router-dom";
-import Modal from "./modals/Modal";
+import Modal from "./modals/modal";
 
 import days from "dayjs";
 import utc from "dayjs/plugin/utc";
