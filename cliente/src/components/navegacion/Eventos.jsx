@@ -8,7 +8,7 @@ function Eventos() {
           Grandes momentos de felicidad y muchas sonrisas es lo que hace nuestro club el perfecto pra ti
         </h3>
         <p className='pt-4 text-gray-600 '>
-          En cada paso que damos encontramos un mundo lleno de retos, nuestro objetivo; hacer que cada uno de estos pasos este lleno de alegria y felicidad, por esta razon nuestra metodologia acuatica comprensiva orientada en la educacion mediante actividades ditacticas, garantica que nuestros niños tengan una adaptacion al medio acuatico.
+          En cada paso que damos encontramos un mundo lleno de retos, nuestro objetivo; hacer que cada uno de estos pasos este lleno de alegria y felicidad, por esta razon nuestra metodologia acuatica comprensiva orientada en la educacion mediante actividades didacticas, garantiza que nuestros niños tengan una adaptacion al medio acuatico.
         </p>
       </div>
 

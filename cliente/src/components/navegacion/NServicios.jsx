@@ -42,8 +42,8 @@ function NServicios() {
 
         <p className="p-2 my-4">
           Las clases de natacion para niños inicia con el aprendizaje de las
-          habilidades acuaticas necesrarias para poder desempeñarse en un
-          hambiente acuatico
+          habilidades acuaticas necesarias para poder desempeñarse en un
+          ambiente acuatico
         </p>
 
         <div className="grid grid-cols-1">
@@ -60,8 +60,7 @@ function NServicios() {
         </div>
 
         <p className="p-2 my-4">
-          Inicio del mundo competitivo perfeccionando las tecnicas de natacion y
-          el ingreso de actividades competitivas oficiales
+          Inicio del mundo competitivo perfeccionando las tecnicas de nado y participar en actividades competitivas oficiales
         </p>
 
         <div className="grid grid-cols-1">
@@ -79,7 +78,7 @@ function NServicios() {
 
         <p className="p-2 my-4">
           Las vacaciones recreativas orientadas al aprendizaje y desarrollo
-          sicomotor de los niños, es un ambiente propicio para todos
+          psicomotor de los niños, es un ambiente propicio para todos
         </p>
 
         <div className="grid grid-cols-1">
@@ -96,9 +95,7 @@ function NServicios() {
         </div>
 
         <p className="p-2 my-4">
-          Las clases de natacion para bebes acompañados de papa o mama, ayudan a
-          fortalecer los lazos fraternales. mediante actividades ludicas
-          aprenderan de manera divertida y segura.
+          Con nuestras clases a domicilio, llevamos la diversion y el aprendizaje directamente hasta la puerta de tu casa.
         </p>
 
         <div className="grid grid-cols-1">
