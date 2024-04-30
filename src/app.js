@@ -9,6 +9,10 @@ import taskRoutes from './routes/tasks.routes.js'
 
 const app = express();
 
+//https://med-dragones.vercel.app/   cuando este en produccion
+//http://localhost:5173              cuando este en desarrollo
+
+
 app.use(cors({
     origin: 'https://med-dragones.vercel.app',
     credentials: true
